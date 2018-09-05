@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nestedScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="100dp">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageWebsite"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/webdesign" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/homeDescription"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:maxLines="40"
+            android:padding="8dp"
+            android:text="We love the art of creation."
+            android:textColor="#666"
+            android:textStyle="bold"
+            android:layout_below="@+id/imageWebsite"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/secondDescription"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:maxLines="40"
+            android:padding="8dp"
+            android:text="Our passion is listening to clients ideas, thinking through solutions and coming up with creative website and mobile app designs. Most Importantly, we keep it simple."
+            android:textColor="#666"
+            android:textStyle="normal"
+            android:layout_below="@+id/homeDescription"/>
+
+
+        <ImageView
+            android:id="@+id/productButton"
+            android:layout_width="114dp"
+            android:layout_height="61dp"
+            android:layout_below="@+id/secondDescription"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+            android:onClick="submitProducts"
+            android:src="@drawable/products" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/thirdDescription"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:maxLines="40"
+            android:padding="8dp"
+            android:text="We focus on our customers."
+            android:textColor="#666"
+            android:textStyle="normal"
+            android:layout_below="@+id/productButton"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fourthDescription"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:maxLines="40"
+            android:padding="8dp"
+            android:text="We ask for your business needs and develop based on those needs so that the right customer will purchase from you."
+            android:textColor="#666"
+            android:textStyle="normal"
+            android:layout_below="@+id/thirdDescription"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fifthDescription"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:maxLines="40"
+            android:padding="8dp"
+            android:text="Visit Us Socially!"
+            android:textColor="#666"
+            android:textStyle="bold"
+            android:layout_below="@+id/fourthDescription"/>
+
+        <ImageView
+            android:id="@+id/facebookIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/fifthDescription"
+            android:onClick="submitFacebook"
+            android:src="@drawable/facebook" />
+
+        <ImageView
+            android:id="@+id/pinterestIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/fifthDescription"
+            android:layout_toRightOf="@+id/facebookIcon"
+            android:onClick="submitPinterest"
+            android:src="@drawable/pinicon" />
+
+        <ImageView
+            android:id="@+id/googleIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/fifthDescription"
+            android:layout_toRightOf="@+id/pinterestIcon"
+            android:onClick="submitGoogle"
+            android:src="@drawable/googleplus" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sixthDescription"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:maxLines="40"
+            android:padding="8dp"
+            android:text="Visit Our Website!"
+            android:textColor="#666"
+            android:textStyle="bold"
+            android:layout_below="@+id/facebookIcon"/>
+
+        <ImageView
+            android:id="@+id/zewebbieIcon"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/sixthDescription"
+            android:onClick="submitZewebbie"
+            android:src="@drawable/zewebbielogoedited" />
+
+</RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="red_colorPrimary">#FF0000</color>
+    <color name="red_colorPrimaryDark">#FF3333</color>
+    <color name="red_colorAccent">#FF6666</color>
+
+    <color name="darkpink_colorPrimary">#FF00FF</color>
+    <color name="darkpink_colorAccent">#FF33FF</color>
+
+    <color name="pink_colorPrimary">#FF33FF</color>
+    <color name="pink_colorPrimaryDark">#FF3399</color>
+    <color name="pink_colorAccent">#FF007F</color>
+
+    <color name="violet_colorPrimary">#4C0099</color>
+    <color name="violet_colorPrimaryDark">#6600CC</color>
+    <color name="violet_colorAccent">#7F00FF</color>
+
+    <color name="blue_colorPrimary">#000099</color>
+    <color name="blue_colorPrimaryDark">#000066</color>
+    <color name="blue_colorAccent">#0000FF</color>
+
+    <color name="skyblue_colorPrimary">#0066CC</color>
+    <color name="skyblue_colorPrimaryDark">#004C99</color>
+    <color name="skyblue_colorAccent">#0080FF</color>
+
+    <color name="green_colorPrimary">#006600</color>
+    <color name="green_colorPrimaryDark">#003300</color>
+    <color name="green_colorAccent">#336600</color>
+
+    <color name="grey_colorPrimary">#606060</color>
+    <color name="grey_colorPrimaryDark">#404040</color>
+    <color name="grey_colorAccent">#808080</color>
+
+    <color name="brown_colorPrimary">#663300</color>
+    <color name="brown_colorPrimaryDark">#331900</color>
+    <color name="brown_colorAccent">#994C00</color>
+
+
+    <color name="blue">#00abea</color>
+    <color name="white">#ffffff</color>
+    <color name="screenBackgroundGrey">#f0f0f0</color>
+
+    <color name="colorShop">#9a1e1b</color>
+    <color name="colorShop2">#071f53</color>
+    <color name="colorNavText">#ffffff</color>
+    <color name="colorSettings">#40000000</color>
+    <color name="colorClick">#abcdef</color>
+</resources>

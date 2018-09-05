@@ -1,0 +1,190 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nestedScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="100dp">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:cardview="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view_gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="325dp"
+            android:layout_margin="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentTop="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/basic" />
+
+                <TextView
+                    android:id="@+id/basicDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image1"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Basic Websites"
+                    android:textColor="#222"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/basicDescription"
+                    android:maxLines="40"
+                    android:padding="8dp"
+                    android:text="Our Basic Websites Include:
+• 3-5 Page Blog Website
+• Add-Ons
+• Basic Customization
+• Personalized Content
+• Social Media Integration"
+                    android:textColor="#666"
+                    android:textSize="14sp" />
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/card_view_gallery"
+            android:layout_marginTop="42dp"
+            android:id="@+id/card_view_gallery2">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentTop="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/advanced" />
+                <TextView
+                    android:id="@+id/advancedDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image2"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Advanced Websites"
+                    android:textColor="#222"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/description_gallery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/advancedDescription"
+                    android:maxLines="40"
+                    android:padding="8dp"
+                    android:text="Our Advanced Websites Include:
+• 5-7 Page Website
+• Blogging capabilities
+• Customized to your business
+• SEO/Keyword Search
+• Personalized Content
+• Custom Layout
+• Media Integration (i.e. Multimedia Videos, Photos)
+• Social Media Integration"
+                    android:textColor="#666"
+                    android:textSize="14sp"
+                    android:textStyle="normal"/>
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/card_view_gallery2"
+            android:layout_marginTop="42dp"
+            android:id="@+id/card_view_gallery3">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentTop="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/intermediate" />
+                <TextView
+                    android:id="@+id/intermediateDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image3"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Intermediate Websites"
+                    android:textColor="#222"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/description_gallery2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/intermediateDescription"
+                    android:maxLines="40"
+                    android:padding="8dp"
+                    android:text="Our Intermediate Websites Include:
+• 7+ Page
+• Add-On’s
+• Blogging Capabilities
+• SEO/Keyword Search
+• eCommerce Website
+• Personalized Content
+• Professional Layout Catered to Your Business Needs
+• Media Integration (i.e. Multimedia Videos and Photos)
+• Social Media Integration (i.e. Facebook and Twitter)"
+                    android:textColor="#666"
+                    android:textSize="14sp"
+                    android:textStyle="normal"/>
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>

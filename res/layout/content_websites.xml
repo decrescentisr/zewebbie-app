@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nestedScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="100dp">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:cardview="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="wrap_content"
+        android:layout_height="325dp"
+        android:layout_margin="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/websites" />
+
+            <TextView
+                android:id="@+id/recipeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image1"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:text="Got Websites?"
+                android:textColor="#222"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/recipeName"
+                android:maxLines="40"
+                android:padding="8dp"
+                android:text="Most business owners know the importance of having a website in order to publicize their business on the internet and drive customers through the door. Did you know that a website serves as your online business card? If you think about it, a business card has your contact information, a short summary (on the back of the card) and your website (if you have one). There is other side of driving customers through your door and it is called the internet. Sounds simple right? Some business owners do not even take advantage of the leverage they can have over the internet. Time, Money and other resources determine what their decision is even before they give a website a chance.  Why turn away customers and potential revenue?"
+                android:textColor="#666"
+                android:textSize="14sp" />
+
+
+        </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/card_view"
+        android:layout_marginTop="42dp"
+        android:id="@+id/card_view2">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/websites1" />
+            <TextView
+                android:id="@+id/recipeName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image2"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:text="Types of Websites"
+                android:textColor="#222"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/description1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/recipeName1"
+                android:maxLines="40"
+                android:padding="8dp"
+                android:text="There are several types of websites to choose from. For example, dynamic, responsive, eCommerce, brochure website, and web applications. How do you choose which one you would like for your business? It depends on the business. For example, if you are a plumber, you would want a website that is dynamic and responsive because you would want as many customers in your geographic area to find what they need, instead of calling your competition. As you may know, if you are in a competitive industry, you need a website that is going to stand out from your competition.
+
+eCommerce websites are built for businesses who sell products online. For example, online retailers need a eCommerce website for their customers to purchase items. There are a few questions you have to ask yourself if you need a eCommerce website: How do I register for a online merchant account? What is the best shopping cart to use? Do I have to pay extra for certain payment options in order for my customers to buy products? Do I need a SSL (Secure Sockets Layer) license? zewebbie.com can assist you in answering these questions and assist you in making an informed decision in order to choose the right type of eCommerce website."
+                android:textColor="#666"
+                android:textSize="14sp" />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/card_view2"
+        android:layout_marginTop="42dp" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/websites2" />
+            <TextView
+                android:id="@+id/recipeName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image3"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:text="Which Website Type is Great for You?"
+                android:textColor="#222"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/description2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/recipeName2"
+                android:maxLines="40"
+                android:padding="8dp"
+                android:text="This depends on what you truly want for you and your business. Ultimately, it depends on the target audience you would like to reach. Customers drive and allow your business to exceed. Customers increase and expand revenues. Customers keep your business active. The question is…Which website would you like for your business?"
+                android:textColor="#666"
+                android:textSize="14sp" />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+

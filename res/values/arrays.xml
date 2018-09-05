@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="web_type_array">
+        <item>Basic ($250)</item>
+        <item>Advanced ($650)</item>
+        <item>Intermediate ($750)</item>
+    </string-array>
+
+    <string-array name="addon_array">
+        <item>None</item>
+        <item>Business Logo ($30)</item>
+
+    </string-array>
+
+
+</resources>
